@@ -1,1 +1,138 @@
-{"type":"footer","name":"Footer group","sections":{"text-with-icons":{"type":"text-with-icons","blocks":{"free-shipping":{"type":"item","settings":{"icon":"picto-box","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Free shipping","content":"<p>Tell your customers about your shipping offer.<\/p>"}},"customer-support":{"type":"item","settings":{"icon":"picto-customer-support","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Customer service","content":"<p>Tell your customers how they can reach you.<\/p>"}},"discount":{"type":"item","settings":{"icon":"picto-coupon","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Refer a friend","content":"<p>Tell your customers about your promotional offers.<\/p>"}},"payment":{"type":"item","settings":{"icon":"picto-lock","mobile_icon_width":24,"icon_width":24,"icon_background_type":"none","title":"Secure payment","content":"<p>Tel your customers about your payment methods.<\/p>"}}},"block_order":["free-shipping","customer-support","discount","payment"],"settings":{"full_width":true,"heading_tag":"h6","text_alignment":"center","icon_spacing":"small"}},"footer":{"type":"footer","blocks":{"newsletter":{"type":"newsletter","settings":{"image_width":150,"heading_size":"h3","title":"Sign up for new stories and personal offers"}},"links":{"type":"links","settings":{"menu":"footer","show_menu_title":true}},"text":{"type":"text","settings":{"title":"About","content":"<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"}}},"block_order":["newsletter","links","text"],"settings":{"show_social_media":true,"show_payment_icons":true,"show_country_selector":true,"show_country_flag":true,"show_country_name":true,"show_locale_selector":true}}},"order":["text-with-icons","footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "custom_liquid_8diGCW": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"elixara-trust-scroll\">\n\n  <div class=\"elixara-trust-card\">\n    <div class=\"elixara-trust-icon\">🚚</div>\n    <h3>Livraison gratuite</h3>\n    <p>Livraison offerte • Expédition sous 8 jours ouvrés partout en Europe.</p>\n  </div>\n\n  <div class=\"elixara-trust-card\">\n    <div class=\"elixara-trust-icon\">💬</div>\n    <h3>Service client</h3>\n    <p>Une question ? Notre équipe support vous accompagne 7j/7 avec une assistance rapide et humaine.</p>\n  </div>\n\n  <div class=\"elixara-trust-card\">\n    <div class=\"elixara-trust-icon\">🔒</div>\n    <h3>Paiement sécurisé</h3>\n    <p>Paiement 100% sécurisé • Cartes bancaires, Bancontact, PayPal et Apple Pay acceptés.</p>\n  </div>\n\n</div>\n\n<style>\n.elixara-trust-scroll{\n  display:grid;\n  grid-template-columns:repeat(3,1fr);\n  gap:16px;\n  margin:24px 0;\n}\n\n.elixara-trust-card{\n  background:#fbfaf5;\n  border:1px solid rgba(200,171,99,.28);\n  border-radius:18px;\n  padding:20px;\n  text-align:center;\n  box-shadow:0 8px 24px rgba(0,0,0,.04);\n}\n\n.elixara-trust-icon{\n  width:46px;\n  height:46px;\n  margin:0 auto 12px;\n  border-radius:50%;\n  background:#0c2b1b;\n  color:#c8ab63;\n  display:flex;\n  align-items:center;\n  justify-content:center;\n  font-size:22px;\n}\n\n.elixara-trust-card h3{\n  color:#0c2b1b;\n  font-size:17px;\n  margin:0 0 8px;\n  font-weight:800;\n}\n\n.elixara-trust-card p{\n  color:#4f5a54;\n  font-size:14px;\n  line-height:1.5;\n  margin:0;\n}\n\n@media(max-width:768px){\n  .elixara-trust-scroll{\n    display:flex;\n    overflow-x:auto;\n    gap:12px;\n    padding:0 16px 8px;\n    margin:20px -16px;\n    scroll-snap-type:x mandatory;\n    -webkit-overflow-scrolling:touch;\n  }\n\n  .elixara-trust-scroll::-webkit-scrollbar{\n    display:none;\n  }\n\n  .elixara-trust-card{\n    min-width:82%;\n    flex-shrink:0;\n    scroll-snap-align:start;\n  }\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "free-shipping": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Livraison gratuite",
+            "content": "<p> Livraison offerte • Expédition sous 8 jours ouvrés partout en Europe.</p>"
+          }
+        },
+        "customer-support": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Service client",
+            "content": "<p> Une question ? Notre équipe support vous accompagne 7j/7 avec une assistance rapide et humaine.</p>"
+          }
+        },
+        "payment": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Paiement sécurisé",
+            "content": "<p> Paiement 100% sécurisé • Cartes bancaires, Bancontact, PayPal et Apple Pay acceptés.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "free-shipping",
+        "customer-support",
+        "payment"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h6",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "image_width": 150,
+            "heading_size": "h3",
+            "title": "Inscrivez-vous pour recevoir de nouveaux articles et des offres personnalisées",
+            "content": ""
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "À propos:",
+            "content": "<p> Chez Elixara, nous croyons que des cheveux plus forts commencent par une routine plus saine.  <br/>Notre mission est de proposer des soins capillaires inspirés des extraits de plantes, conçus pour accompagner les cheveux fragilisés, clairsemés ou sujets à la chute.<br/><br/>Nous développons des formules modernes, simples à utiliser et adaptées aussi bien aux femmes qu’aux hommes, avec une attention particulière portée à la qualité, à la composition et à l’expérience client.<br/><br/>Plus qu’un simple soin, Elixara accompagne votre routine capillaire au quotidien pour retrouver des cheveux visiblement plus denses, plus forts et plus sains.</p>",
+            "enable_follow_on_shop": false
+          }
+        }
+      },
+      "block_order": [
+        "newsletter",
+        "links",
+        "text"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_policy_links": false,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_8diGCW",
+    "text-with-icons",
+    "footer"
+  ]
+}
