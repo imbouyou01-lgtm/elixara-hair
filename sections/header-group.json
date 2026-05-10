@@ -17,22 +17,38 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "Résultats visibles en quelques semaines",
+            "url": ""
+          }
+        },
+        "message_4NBJwk": {
+          "type": "message",
+          "settings": {
+            "text": "Offre spéciale aujourd’hui ",
+            "url": ""
+          }
+        },
+        "message_zxMjDm": {
+          "type": "message",
+          "settings": {
+            "text": " Livraison offerte aujourd’hui",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_4NBJwk",
+        "message_zxMjDm"
       ],
       "settings": {
         "enable_sticky": false,
         "autoplay": false,
         "cycle_speed": 6,
-        "text_size": "text-xs",
+        "text_size": "text-base",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#1a1a1a",
+        "background": "#468846",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
